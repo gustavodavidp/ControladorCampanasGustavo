@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy flatten="true" todir="c:\Users\Gustavo Polanco\Desktop\Programa Iglesia del Carmen\ControladorCampanas2023-main\ControladorCampanas2023-main\target/distribution" overwrite="true">
+    <fileset includes="*.sh" dir="assets"></fileset>
+  </copy>
+  <chmod perm="ugo+rx" includes="**/*.sh" dir="c:\Users\Gustavo Polanco\Desktop\Programa Iglesia del Carmen\ControladorCampanas2023-main\ControladorCampanas2023-main\target/distribution"/>
+</target>
+</project>
